@@ -44,7 +44,7 @@ io.on("connection", (socket) =>{
         messages.push(data);
 
         // Emitimos mensaje para el cliente, con todo el array de datos:
-        io.emit("messagesLogs", messages);
+        io.emit("mesaggesLogs", messages);
 
     })
 })
